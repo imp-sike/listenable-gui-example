@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkWindow" id="window">
+    <property name="title">Listenable App</property>
+    <property name="default-width">300</property>
+    <property name="default-height">200</property>
+    <child>
+      <object class="GtkBox" id="box">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkLabel" id="label">
+            <property name="label">Hello, Listenable!</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="use-markup">True</property>
+            <property name="markup"><![CDATA[<span size="larger" color="#FFFFFF">Hello, Listenable!</span>]]></property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="label">Second Label</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="use-markup">True</property>
+            <property name="markup"><![CDATA[<span size="larger" color="#FFFFFF">Second Label</span>]]></property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
